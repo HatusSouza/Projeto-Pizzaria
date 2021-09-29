@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@200;300;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 50px;
+  background-color: #d96d00;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #b22d00;
+  color: white;
+  padding: 10px;
+  padding-bottom: 10px;
+  height: auto;
+  align-items: flex-end;
+}
+.disk-entregas {
+  font-size: 16px;
+  align-items: flex-end;
+}
+.menu-navegacao a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px;
+  padding-bottom: 10px;
+}
+.menu-navegacao {
+  margin: 10;
+  list-style: none;
+  padding: 10;
+  display: flex;
+  background-color: #d9a300;
+  justify-content: start;
+  align-items: center;
+  height: 38px;
+  width: auto;
+}
+.conteudo {
+  width: auto;
+  background-color: floralwhite;
+  display: grid;
+}
+.conteudo h1 {
+  font-size: 40px;
+  padding: 10px;
+  border: 5px solid rgb(250, 248, 248);
+  justify-content: start;
+}
+.conteudo h2 {
+  font-size: 35px;
+  text-align: left;
+  margin: 10px;
+}
+.conteudo p {
+  text-align: left;
+  display: flex;
+  margin: 10px;
+}
+.pizza {
+  text-align: center;
+}
+.linha {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+.lista-pizza {
+  column-count: 3;
+}
+
+.historia {
+  float: left;
+  text-decoration: none;
+}
+
+.historia a {
+  float: none;
+  text-decoration: none;
+  color: #d93600;
+  text-align: end;
+  justify-items: right;
+  display: block;
+  padding: none;
+  margin: none;
+}
+
+.historia p {
+  float: left;
+  text-decoration: none;
+  display: unset;
+  padding: auto;
+}
+.historia img {
+  width: 150px;
+  height: auto;
+  margin: 10px 10px 0px 0px;
+  padding: 5px;
+}
+.historia h1 {
+  text-align: right;
+}
+.historia p {
+  text-align: justify;
+  width: 400px;
+}
+.clear {
+  clear: both;
+}
+.forno {
+  float: left;
+}
+.sabor-1 {
+  justify-content: space-between;
+  display: flex;
+  margin: 10px;
+}
+.coluna {
+  width: 400px;
+}
+.coluna-1 {
+  justify-content: flex-end;
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  width: cover;
+  margin: 10px 10px 10px 10px;
+  padding: 10px 10px 10px 10px;
+}
+.coluna ul {
+  padding: 10px 10px 10px 10px;
+  text-align: justify;
+  margin-left: 30px;
+  padding-bottom: 30px;
+}
+.coluna-1 img {
+  width: 100px;
+  padding: 5px;
+  display: flex;
+}
+.coluna p h1 {
+  text-align: center;
+  padding: 5px;
+}
+.rodape {
+  background-color: #333333;
+  list-style: none;
+  padding: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  height: 38px;
+  width: auto;
+  color: aliceblue;
+}
+/* Formulario */
+form {
+  width: 420px;
+  height: 420px;
+  padding: 10px;
+  margin: 20px;
+  size: 16px;
+}
+
+label {
+  display: grid;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+  padding: 10px;
+  width: 405px;
+  height: 35px;
+  border: 1 px solid #999;
+  outline: 0;
+}
+textarea {
+  padding: 10px;
+  width: 400px;
+  height: 100px;
+  resize: none;
+  outline: 0;
+  border: 1px solid #999;
+}
+button {
+  color: #fff;
+  size: 16px;
+  width: 81px;
+  height: 29px;
+  margin-top: 10px;
+  justify-self: start;
+  background-color: #777777;
+  border: 1px solid #7777;
+}
+/* Final Formulario */
+.contatos-titulo {
+  display: flex;
+  padding: 10px;
+}
+
+.contato-p {
+  padding-left: 10px;
+  display: block;
+}
+
+.asside{
+  width: 260px;
+  justify-content: flex-end;
+  display: inline-table;
+  align-items:flex-end;
+}
